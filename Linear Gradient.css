@@ -1,0 +1,47 @@
+
+div{
+	
+	width:300px;
+	height:100px;
+	margin:4px;
+	font-size:30px;
+	padding:20px;
+	padding:20px;
+	
+}
+/*siyahın içinde yazı görünmediği için yazı rengini 3. sınıfa özel olarak id kullanarak değiştirim*/
+#blue{
+	color:gray;
+}
+/* üstten alta doğru*/
+div.gradient1{
+	background:linear-gradient(turquoise,black);
+}
+/*soldan sağa doğru*/
+div.gradient2{
+	background:-webkit-linear-gradient(left,turquoise,black);
+}
+/*sağdan sola doğru*/
+div.gradient3{
+	background:-webkit-linear-gradient(right,turquoise,black);
+	
+}
+/*sol üstten sağ alta doğru*/
+div.gradient4{
+	background:-webkit-linear-gradient(top left,turquoise,black);
+}
+/*3 farklı renk kullanma*/
+div.gradient5{
+	background:-webkit-linear-gradient(turquoise,magenta,black)
+}
+/* 3 rengi soldan başlasın*/
+div.gradient6{
+	background:-webkit-linear-gradient(right,turquoise,magenta,black)
+}
+div.gradient7{
+	background:-webkit-linear-gradient(left,turquoise,magenta,black);
+}
+div.gradient8{
+	background:-webkit-linear-gradient(top left,turquoise,magenta,black);
+}
+

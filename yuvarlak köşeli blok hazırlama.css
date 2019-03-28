@@ -1,0 +1,56 @@
+
+p{
+	color:red;
+}
+.köse1 {
+	/*radius çap demek köşeleri yuvarlak yapar*/
+	border-radius:20px;
+	background:#ff6666;
+	padding:20px;
+	width:200px;
+	height:200px;
+}
+.solköse{
+	/* sadece sol üst yuvarlak olsun istersen*/
+	border-top-left-radius:40px;
+	background:#ff6666;
+	padding:20px;
+	width:200px;
+	height:200px;
+}
+.sagaltköse{
+	/* sadece sağaltköse yuvarlak olsun istersen*/
+	border-bottom-right-radius:40px;
+	background:#ff6666;
+	padding:20px;
+	width:200px;
+	height:200px;
+	
+}
+.köse2{
+	/* içi boş köşeleri olan blog yapar*/
+	border-radius:20px;
+	border:solid 10px;
+	border-color:#ff6666;
+	padding:20px;
+	width:200px;
+	height:200px;
+}
+
+.köse3{
+	border-radius:30px;
+	background-image:url(arkaplan.jpg);
+	padding:20px;
+	width:200px;
+	height:200px;
+}
+.köse4{
+	border-radius:30px;
+	border:solid 10px;
+	border-color:#ff6666;
+	background-image:url(arkaplan.jpg);
+	padding:20px;
+	width:200px;
+	height:200px;
+}
+

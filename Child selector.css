@@ -1,0 +1,12 @@
+div p {
+	color:yellow;
+}
+p {
+	color:magenta;
+}
+.red p{
+	color:red;
+}
+#blue p {
+	color:blue;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet"  href="main.css"/>
+<body>
+<div class="A">
+<form action="" method="" >
+Yemek Listesi </br>
+<select name="yemek">
+<!-- sabit kalmasını istediğimizde selected-->
+<option value="yemek" selected >seç </option>
+<option value="yemek1" >iskender </option>
+<option value="yemek2">çorba </option>
+<option value="yemek3">tatlı </option>
+<option value="yemek5">sıcak içecek </option>
+<option value="yemek6">özel spariş </option>
+</select>
+</form>
+</div> 
+<div class="B">
+<form action="" method="" >
+Yemek Listesi </br>
+<!-- birden fazla seçim yapılsın istersek multiple-->
+<select name="yemek" multiple>
+<option value="yemek" selected >seç </option>
+<option value="yemek1" >iskender </option>
+<option value="yemek2">çorba </option>
+<option value="yemek3">tatlı </option>
+<option value="yemek5">sıcak içecek </option>
+<option value="yemek6">özel spariş </option>
+</select>
+</form>
+</div>
+<!-- alt menü şeklinde sıralamak istersek-->
+<div class="C">
+<form action="" method="" >
+Yemek Listesi </br>
+<select name="yemek" multiple>
+<optgroup label="Ana yemek">
+<option value="yemek1" >iskender </option>
+<option value="yemek2">çorba </option>
+</optgroup>
+<optgroup label="Tatlılar">
+<option value="tatlı1">Waffle </option>
+<option value="tatlı2">Trileçe</option>
+</optgroup>
+
+</select>
+</form>
+</div>
+
+
+ 
+</body>
+</head>
+</html>

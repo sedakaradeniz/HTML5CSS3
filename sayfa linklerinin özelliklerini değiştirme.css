@@ -1,0 +1,14 @@
+a{
+	color:grey;
+}
+/* üzerine gelince oluşan renk */
+a:hover {
+	color:red;
+}
+a:active{
+	color:yellow;
+}
+a:visited{
+	color:black;
+	
+}

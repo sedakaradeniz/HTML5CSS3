@@ -1,0 +1,14 @@
+fieldset{
+	 width:400px;
+	 background-color:#efbac5;
+}
+fieldset legend{
+	font-size:18px;
+	font-style:italic;
+	font-weight:bold;
+}
+input[type=text] {
+	background-color:black;
+	color:white;
+	width:100px;
+}

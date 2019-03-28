@@ -1,0 +1,27 @@
+p{
+	font-size:20px;
+
+}
+/*nth-child  kaçıncı sıradaki çocuğa müdale edilcek 
+odd tek  ve katları 
+even çift ve katları
+ 2n 2 ve katları 
+ 5n+2 5in katının 2 fazlası sıradakiler*/
+
+ p:nth-child(odd){
+	background-color:gray;
+	color:magenta;
+}
+p:nth-child(even){
+	background-color:gray;
+	color:magenta;
+}
+p:nth-child(2n){
+	background-color:gray;
+	color:magenta;
+}
+p:nth-child(5n+2){
+	background-color:gray;
+	color:magenta;
+}
+	

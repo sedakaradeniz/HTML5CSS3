@@ -1,0 +1,13 @@
+p:first-child{
+	color:red;
+}
+p:last-child{
+	color:blue;
+}
+p:before{
+	content:url(person.png);
+
+}
+p:after{
+	content:"--------";
+}

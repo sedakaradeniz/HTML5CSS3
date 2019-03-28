@@ -1,0 +1,14 @@
+.foto{
+	/* resimi sol tarafa koyar*/
+	float:left;
+}
+.A{
+	color:blue;
+	font-size:20px;
+	
+}
+.B{
+	/*bu sınıfa ait parageafı resimin yanından siler aşşağı atar*/
+	
+	clear:left;
+}
